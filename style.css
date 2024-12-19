@@ -1,0 +1,69 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+body{
+    background-color: var(--Violet);
+    margin: 0;
+    overflow: hidden;
+}
+
+.fundo{
+    width: 960px;
+    position: relative;
+    left: 100px;
+}
+
+.logo{
+    width: 230px;
+    position: relative;
+    bottom: 490px;
+    right: 900px;
+}
+
+.telas{
+    position: relative;
+    bottom: 430px;
+    left: 65px;
+    width: 530px;
+}
+
+.titulo{
+    font-family: "Poppins" ,sans-serif;
+    color: white;
+    font-size:45px;
+    position: relative;
+    left: 650px;
+    bottom: 810px;
+}
+
+.paragrafo{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 100;
+    position: relative;
+    left: 650px;
+    bottom: 830px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    color: white;
+    background-color: var(--Soft-Magenta);
+    cursor: pointer;
+    position: relative;
+    left: 650px;
+    bottom: 830px;
+}
+
+button:hover{
+    background-color: white;
+    color: var(--Violet);
+}
